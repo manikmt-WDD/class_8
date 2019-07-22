@@ -191,6 +191,7 @@ footer {
 }
 .fotter_left ul{
 	float: left;
+	padding: 0;
 }
 .fotter_left ul li{
 	list-style: none;
@@ -205,6 +206,9 @@ footer {
 	display: block;
 	transition: .5s;
 }
+.fotter_left ul li a:first-child{
+	padding-left: 0;
+}
 .fotter_left ul li a:hover{
 	color: #626262;
 }
@@ -214,6 +218,7 @@ footer {
 }
 .fotter_right ul{
 	float: right;
+	padding: 0;
 }
 .fotter_right ul li{
 	list-style: none;
@@ -227,6 +232,9 @@ footer {
 	padding: 0 10px;
 	display: block;
 	transition: .5s;
+}
+.fotter_right ul li a:last-child{
+	padding-right: 0;
 }
 .fotter_right ul li a:hover{
 	color: #626262;
