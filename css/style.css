@@ -1,0 +1,259 @@
+/*
+font-family: 'Playfair Display', serif;
+font-family: 'Ubuntu', sans-serif;
+font-family: 'Inconsolata', monospace;
+
+
+*/
+body{
+	font-family: 'Playfair Display', serif;
+	color: #626262;
+	padding: 0;
+	margin: 0;
+}
+p,h1,h2,h3,h4,h5,h6{
+	margin: 0;
+	padding: 0;
+}
+p{
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 30px;
+}
+/*header start*/
+header{
+	padding: 40px 0;
+}
+.wrapper{
+	width: 90%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.logo{
+	width: 12%;
+	float: left;
+	margin-top: 11px;
+}
+.logo img{
+	width: 100%;
+}
+.manu{
+	width: 70%;
+	float: right;
+}
+.manu ul{
+	float: right;
+}
+.manu ul li{
+	list-style: none;
+	float: left;
+}
+.manu ul li a{
+	font-weight: 400;
+	font-size: 14px;
+	color: #626262;
+	text-transform: uppercase;
+	text-decoration: none;
+	padding: 0 60px;
+	display: block;
+	transition: .5s;
+}
+.manu ul li a:hover{
+	color: #000000;
+}
+.manu ul li:last-child a{
+	padding-right: 0;
+}
+/*header end*/
+/*banner start*/
+.banner{
+	padding-bottom: 40px;
+}
+.banner img{
+	width: 100%;
+}
+/*banner end*/
+
+/*photodiary start*/
+.container{
+	width: 80%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.same_text{
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 16px;
+	font-weight: 300;
+	color: #b4ad9e;
+	text-transform: uppercase;
+	margin-bottom: 30px;
+}
+.same_text_h2{
+	font-size: 30px;
+	font-weight: 400;
+	margin-bottom: 40px;
+}
+.photo_day{
+	padding: 60px 0px;
+}
+.photo_day h1 {}
+.photo_day h2 {}
+.photo_day p {
+	margin-bottom: 60px;
+}
+.photo_da h3{}
+/*photodiary end*/
+/*life_style start*/
+.life_style {
+	padding: 80px 0;
+}
+.life_style_left {
+	width: 47%;
+	float: left;
+}
+.same_post{}
+.same_post img {
+	width: 100%;
+	margin-bottom: 30px;
+}
+.same_post h1{}
+.same_post h2{}
+.same_post p{}
+.life_style_right{
+	width: 47%;
+	float: right;
+}
+/*life_style end*/
+.sign_up_bc{
+	background-color: #f0f0f0;
+	padding: 60px 0;
+}
+.sign_up {
+	width: 26%;
+	margin: 0 auto;
+}
+.sign_up h1{
+	font-size: 30px;
+	font-weight: 400;
+	margin-bottom: 60px;
+	color: #333333;
+}
+.email_input {
+	border-bottom: 1px solid;
+	color: #000000;
+}
+.email_input input[type="email"] {
+	width: 60%;
+	padding: 10px 20px 10px 0px;
+	font-size: 14px;
+	border: none;
+	background: none;
+}
+.email_input img {
+	float: right;
+	margin-top: 10px;
+}
+
+/*sign_up start*/
+/*life_style_button start*/
+.life_style_button{
+	padding: 100px 0;
+}
+/*life_style_button end*/
+/*load more start*/
+.load_more {
+	text-align: center;
+	padding: 60px 0 120px 0;
+}
+.load_more button {
+	font-size: 20px;
+	font-weight: 400;
+	border: 1px solid #626262;
+	padding: 15px 32px;
+	background: none;
+	transition: .5s;
+	cursor: pointer;
+	border-radius: 5px;
+}
+.load_more button:hover{
+	background: #000;
+	color: #fff;
+	border: 1px solid #000;
+}
+/*load more end*/
+/*footer start*/
+footer {
+	background: #f0f0f0;
+	padding: 20px;
+}
+.fotter_left{
+	width: 40%;
+}
+.fotter_left ul{
+	float: left;
+}
+.fotter_left ul li{
+	list-style: none;
+	float: left;
+}
+.fotter_left ul li a{
+	font-weight: 400;
+	font-size: 14px;
+	color: #000000;
+	text-decoration: none;
+	padding: 0 10px;
+	display: block;
+	transition: .5s;
+}
+.fotter_left ul li a:hover{
+	color: #626262;
+}
+.fotter_right{
+	widows: 40%;
+	float: right;
+}
+.fotter_right ul{
+	float: right;
+}
+.fotter_right ul li{
+	list-style: none;
+	float: left;
+}
+.fotter_right ul li a{
+	font-weight: 400;
+	font-size: 14px;
+	color: #000000;
+	text-decoration: none;
+	padding: 0 10px;
+	display: block;
+	transition: .5s;
+}
+.fotter_right ul li a:hover{
+	color: #626262;
+}
+.fotter_icon{
+	font-size: 16px;
+	color: #626262;
+	transition: .5s;
+}
+.fotter_icon:hover{
+	color:#000000;
+}
+.{}
+/*footer end*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
